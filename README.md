@@ -13,4 +13,4 @@ $$
 \end{aligned}
 $$
 
-where $ \nu = \mu / \rho $ is the kinematic viscosity.
+where $$ \nu = \mu / \rho $$ is the kinematic viscosity.
