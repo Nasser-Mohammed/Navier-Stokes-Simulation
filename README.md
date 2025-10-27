@@ -12,4 +12,3 @@ $$
 &\nabla \cdot \mathbf{u} = 0
 \end{aligned}
 $$
-Where $ \nu = \mu / \rho $ is the kinematic viscosity.
