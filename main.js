@@ -454,15 +454,15 @@ canvas.addEventListener("touchmove", (e) => {
 
   if (isTwoFinger) {
     // === TWO FINGERS: velocity only (mobile equivalent of right-drag) ===
-    u[idx] += dx * 2.0;
-    v[idx] += dy * 2.0;
+    u[idx] += dx * 0.75;
+    v[idx] += dy * 0.75;
   } else {
     // === ONE FINGER: velocity + light dye (like normal left-drag) ===
-    u[idx] += dx * 2.0;
-    v[idx] += dy * 2.0;
-    densR[idx] += c[0] * 10.0;
-    densG[idx] += c[1] * 10.0;
-    densB[idx] += c[2] * 10.0;
+      u[idx] += dx * 0.25;
+      v[idx] += dy * 0.25;
+      densR[idx] += c[0] * 25.0;
+      densG[idx] += c[1] * 25.0;
+      densB[idx] += c[2] * 25.0;
   }
 }, { passive: false });
 
